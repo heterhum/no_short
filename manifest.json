@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "NOSHORT",
+  "version": "1.0",
+
+  "description": "blocks yt shorts",
+
+  "icons": {
+    "48": "roi.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/*"],
+      "js": ["NOO.js"]
+    }
+  ]
+}
